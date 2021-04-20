@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IngosConfiguration.API</name>
+    </assembly>
+    <members>
+        <member name="T:IngosConfiguration.API.Controllers.BaseController">
+            <summary>
+            Base controller
+            </summary>
+        </member>
+        <member name="M:IngosConfiguration.API.Controllers.BaseController.#ctor">
+            <summary>
+            The base controller
+            </summary>
+        </member>
+        <member name="T:IngosConfiguration.API.Infrastructure.RemoveVersionFromParameter">
+            <summary>
+            Remove api version param from swagger doc
+            </summary>
+        </member>
+        <member name="M:IngosConfiguration.API.Infrastructure.RemoveVersionFromParameter.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Apply the filter rule
+            </summary>
+        </member>
+        <member name="T:IngosConfiguration.API.IngosConfigurationApiModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:IngosConfiguration.API.IngosConfigurationApiModule.PreConfigureServices(Volo.Abp.Modularity.ServiceConfigurationContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:IngosConfiguration.API.IngosConfigurationApiModule.ConfigureServices(Volo.Abp.Modularity.ServiceConfigurationContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:IngosConfiguration.API.IngosConfigurationApiModule.OnApplicationInitialization(Volo.Abp.ApplicationInitializationContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:IngosConfiguration.API.IngosConfigurationApiModule.GetApiDocPaths(System.Collections.Generic.IEnumerable{System.String},System.String)">
+            <summary>
+            Get the api description doc path
+            </summary>
+            <param name="paths">The xml file path</param>
+            <param name="basePath">The site's base running files path</param>
+            <returns></returns>
+        </member>
+        <member name="T:IngosConfiguration.API.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:IngosConfiguration.API.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IngosConfiguration.API.Startup">
+            <summary>
+            Application start up configuration
+            </summary>
+        </member>
+    </members>
+</doc>
